@@ -5,3 +5,7 @@
       debug:
         msg: "Hello World!"
 
+    - name: Install Nginx
+      dnf:
+        name: nginx
+        state: present
